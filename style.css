@@ -46,6 +46,16 @@ main {
   height: 48px;
 }
 
+.rating:hover{
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}
+
+.rating:focus{
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 12%, 63%);
+}
+
 .submit {
   text-align: center;
   margin: 18px 0 2px 0;
@@ -59,8 +69,14 @@ main {
   border-radius: 100px;
   border: none;
   text-transform: uppercase;
+  text-decoration: solid;
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+.submit button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
 }
 
 img {
