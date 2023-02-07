@@ -19,12 +19,17 @@ main {
   padding: 36px;
 }
 
+.hidden {
+  display: none;
+}
+
 .title h1 {
   color: hsl(0, 0%, 100%);
 }
 
 .desc p {
   font-size: 15px;
+  line-height: 1.5rem;
   color: hsl(217, 12%, 63%);
   margin-top: -1rem;
   margin-bottom: 2rem;
@@ -79,10 +84,47 @@ main {
   background-color: hsl(0, 0%, 100%);
 }
 
-img {
+.star-img {
   background-color: hsl(213, 19%, 18%);
   width: 16px;
   height: 16px;
   border-radius: 24px;
   padding: 16px;
+}
+
+.thank-you-img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.given-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.given-rating p{
+  background-color: hsl(213, 19%, 18%);
+  text-align: center;
+  color: hsl(25, 97%, 53%);
+  font-size: 15px;
+  width: 16rem;
+  padding: 0.2rem;
+  border-radius: 8rem;
+  margin-top: 2.5rem;
+  
+}
+
+.thank-you-title h1 {
+  color:hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.thank-you-desc p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);  
+  text-align: center;
+  line-height: 1.5rem;
+  margin-top: -1rem;
 }
