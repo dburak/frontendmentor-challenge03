@@ -12,7 +12,7 @@ main {
   min-height: 100vh;
 }
 
-.card {
+.card-rating, .card-thank-you {
   background-image: linear-gradient(to top right, hsl(216, 12%, 8%), hsl(213, 19%, 18%));
   max-width: 360px;
   border-radius: 16px;
@@ -61,12 +61,12 @@ main {
   background-color: hsl(217, 12%, 63%);
 }
 
-.submit {
+.btn-submit {
   text-align: center;
   margin: 18px 0 2px 0;
 }
 
-.submit button {
+.btn-submit button {
   width: 22rem;
   padding: 1rem;
   color: hsl(0, 0%, 100%);
@@ -79,7 +79,7 @@ main {
   cursor: pointer;
 }
 
-.submit button:hover {
+.btn-submit button:hover {
   color: hsl(25, 97%, 53%);
   background-color: hsl(0, 0%, 100%);
 }
