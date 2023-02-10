@@ -12,8 +12,13 @@ main {
   min-height: 100vh;
 }
 
-.card-rating, .card-thank-you {
-  background-image: linear-gradient(to top right, hsl(216, 12%, 8%), hsl(213, 19%, 18%));
+.card-rating,
+.card-thank-you {
+  background-image: linear-gradient(
+    to top right,
+    hsl(216, 12%, 8%),
+    hsl(213, 19%, 18%)
+  );
   max-width: 360px;
   border-radius: 16px;
   padding: 36px;
@@ -42,7 +47,7 @@ main {
 }
 
 .rating {
-  color:hsl(217, 12%, 63%);
+  color: hsl(217, 12%, 63%);
   background-color: hsl(213, 19%, 18%);
   border: none;
   border-radius: 24px;
@@ -51,22 +56,17 @@ main {
   height: 48px;
 }
 
-.rating:hover{
+.rating:hover {
   color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
 }
 
-.rating:focus{
+.selected {
   color: hsl(0, 0%, 100%);
   background-color: hsl(217, 12%, 63%);
 }
 
 .btn-submit {
-  text-align: center;
-  margin: 18px 0 2px 0;
-}
-
-.btn-submit button {
   width: 22rem;
   padding: 1rem;
   color: hsl(0, 0%, 100%);
@@ -77,6 +77,19 @@ main {
   text-decoration: solid;
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+.unchecked {
+  width: 22rem;
+  padding: 1rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 12%, 63%);
+  border-radius: 100px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: solid;
+  letter-spacing: 2px;
+  pointer-events: none;
 }
 
 .btn-submit button:hover {
@@ -104,7 +117,7 @@ main {
   align-items: center;
 }
 
-.given-rating p{
+.given-rating p {
   background-color: hsl(213, 19%, 18%);
   text-align: center;
   color: hsl(25, 97%, 53%);
@@ -113,17 +126,16 @@ main {
   padding: 0.2rem;
   border-radius: 8rem;
   margin-top: 2.5rem;
-  
 }
 
 .thank-you-title h1 {
-  color:hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   text-align: center;
 }
 
 .thank-you-desc p {
   font-size: 15px;
-  color: hsl(217, 12%, 63%);  
+  color: hsl(217, 12%, 63%);
   text-align: center;
   line-height: 1.5rem;
   margin-top: -1rem;
